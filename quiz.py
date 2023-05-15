@@ -29,6 +29,8 @@ else:
 print(' \n Questão 3: Em que ano foi lançado o jogo Demon`s Souls Remake para PS5? \n \n (A) 2019 \n (B) 2020 \n (C) 2021 \n (D) 2022 \n')
 answer_3 = input('Resposta: ')
 
+
+
 if answer_3 == 'B':
     print('Correta! 2020!!')
     score = score + 1
