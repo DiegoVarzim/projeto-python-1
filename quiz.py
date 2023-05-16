@@ -2,7 +2,7 @@ print(' \n Seja muito bem-vindo ao quiz do Diego Varzim!')
 answer_user = input(' \n Quer começar? (S/N)')
 
 if answer_user != 'S':
-    quit()
+    quit('Saindo... quiz não inicializado')
 
 score = 0
 
