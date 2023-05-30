@@ -1,5 +1,5 @@
 print(' \n Seja muito bem-vindo ao quiz do Diego Varzim!')
-answer_user = input(' \n Quer começar? (S/N)')
+answer_user = input(' \n Quer começar? (S/N)').upper()
 
 if answer_user != 'S':
     quit('Saindo... quiz não inicializado')
@@ -9,7 +9,7 @@ score = 0
 print(' \n Começando...')
 
 print(' \n Questão 1: Quem desenvolveu o jogo Grand Theft Auto (GTA)? \n \n (A) Rockstar Games \n (B) Ubisoft \n (C) Activision \n (D) EA \n')
-answer_1 = input('Resposta: ')
+answer_1 = input('Resposta: ').upper()
 
 if answer_1 == 'A':
     print('Correta! Rockstar Games!!')
@@ -18,7 +18,7 @@ else:
     print('Incorreta!')
 
 print(' \n Questão 2: Qual o nome do protagonista do game Final Fantasy XVI (FFXVI)? \n \n (A) Cloud Strife \n (B) Squall Leonhart \n (C) Zidane Tribal \n (D) Clive Rosfield \n')
-answer_2 = input('Resposta: ')
+answer_2 = input('Resposta: ').upper()
 
 if answer_2 == 'D':
     print('Correta! Clive Rosfield!!')
@@ -27,7 +27,7 @@ else:
     print('Incorreta!')
 
 print(' \n Questão 3: Em que ano foi lançado o jogo Demon`s Souls Remake para PS5? \n \n (A) 2019 \n (B) 2020 \n (C) 2021 \n (D) 2022 \n')
-answer_3 = input('Resposta: ')
+answer_3 = input('Resposta: ').upper()
 
 
 
